@@ -1,0 +1,15 @@
+import pandas as pd
+
+df = pd.read_csv(r"C:\Users\pyb\Downloads\smartphone.csv")
+# print(df)
+# print(df.to_string())
+print(df.info)
+print(df.columns)
+print(df.count())
+print(df.items)
+print(df.max())
+print(df.head())
+print(df.head(10))
+print(df.tail())
+print(df.tail(10))
+print(df.duplicated())
